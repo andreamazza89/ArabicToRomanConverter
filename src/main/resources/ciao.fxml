@@ -16,6 +16,7 @@
            GridPane.columnIndex="0" GridPane.rowIndex="1"/>
 
     <TextField fx:id="romanInput"
+            onAction="#convertRoman"
             GridPane.columnIndex="1" GridPane.rowIndex="1"/>
 
     <Text fx:id="conversionResult"
