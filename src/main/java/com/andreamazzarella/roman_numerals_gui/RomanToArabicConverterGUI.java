@@ -10,11 +10,11 @@ public class RomanToArabicConverterGUI extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/ciao.fxml"));
 
         Scene scene = new Scene(root, 300, 275);
 
-        primaryStage.setTitle("FXML Welcome");
+        primaryStage.setTitle("Welcome to Roman goodness");
         primaryStage.setScene(scene);
         primaryStage.show();
     }
